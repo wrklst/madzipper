@@ -1,6 +1,6 @@
 {
-    "name": "madnest/madzipper",
-    "description": "Wannabe successor of Chumper/Zipper package for Laravel",
+    "name": "wrklst/madzipper",
+    "description": "Wannabe successor of Chumper/Zipper package for Laravel, Laravel 11 fork",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,13 +9,19 @@
             "email": "theimer@madne.st",
             "homepage": "https://madne.st",
             "role": "Developer"
+        },
+        {
+            "name": "Tobias Vielmetter-Diekmann",
+            "email": "tobias@wrklst.art",
+            "homepage": "https://wrklst.art",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "ext-zip": "*",
-        "illuminate/support": "^10.0",
-        "illuminate/filesystem": "^10.0"
+        "illuminate/support": "^11.0",
+        "illuminate/filesystem": "^11.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.4",
@@ -25,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Madnest\\Madzipper\\": "src/Madnest/Madzipper"
+            "wrklst\\Madzipper\\": "src/wrklst/Madzipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Madnest\\Madzipper\\Tests\\": "tests/"
+            "wrklst\\Madzipper\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -43,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Madnest\\Madzipper\\MadzipperServiceProvider"
+                "wrklst\\Madzipper\\MadzipperServiceProvider"
             ],
             "aliases": {
-                "Madzipper": "Madnest\\Madzipper\\Madzipper"
+                "Madzipper": "wrklst\\Madzipper\\Madzipper"
             }
         }
     },
