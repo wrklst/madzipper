@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "wrklst\\Madzipper\\": "src/wrklst/Madzipper"
+            "WrkLst\\Madzipper\\": "src/WrkLst/Madzipper"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "wrklst\\Madzipper\\Tests\\": "tests/"
+            "WrkLst\\Madzipper\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "wrklst\\Madzipper\\MadzipperServiceProvider"
+                "WrkLst\\Madzipper\\MadzipperServiceProvider"
             ],
             "aliases": {
-                "Madzipper": "wrklst\\Madzipper\\Madzipper"
+                "Madzipper": "WrkLst\\Madzipper\\Madzipper"
             }
         }
     },
