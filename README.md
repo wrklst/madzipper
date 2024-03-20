@@ -14,7 +14,7 @@ composer require madnest/madzipper
 
 2. Optionally when using with Laravel, go to `app/config/app.php`
 
--   add to providers `Madnest\Madzipper\MadzipperServiceProvider::class`
+-   add to providers `WrkLst\Madzipper\MadzipperServiceProvider::class`
 
 You can now access Madzipper with the `Madzipper` alias.
 
@@ -39,7 +39,7 @@ Madzipper::make('public/test.zip')->add($files)->close();
 ## Another example
 
 ```php
-$zipper = new \Madnest\Madzipper\Madzipper;
+$zipper = new \WrkLst\Madzipper\Madzipper;
 
 $zipper->make('test.zip')->folder('test')->add('composer.json');
 $zipper->zip('test.zip')->folder('test')->add('composer.json','test');

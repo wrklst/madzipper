@@ -1,6 +1,6 @@
 <?php
 
-namespace Madnest\Madzipper\Repositories;
+namespace WrkLst\Madzipper\Repositories;
 
 /**
  * RepositoryInterface that needs to be implemented by every Repository.

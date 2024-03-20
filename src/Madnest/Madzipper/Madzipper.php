@@ -1,11 +1,11 @@
 <?php
 
-namespace Madnest\Madzipper;
+namespace WrkLst\Madzipper;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Madnest\Madzipper\Repositories\RepositoryInterface;
+use WrkLst\Madzipper\Repositories\RepositoryInterface;
 
 /**
  * This Madzipper class is a wrapper around the ZipArchive methods with some handy functions.
@@ -92,10 +92,10 @@ class Madzipper
 
         $objectOrName = $type;
         if (is_string($type)) {
-            $objectOrName = 'Madnest\Madzipper\Repositories\\'.ucwords($type).'Repository';
+            $objectOrName = 'WrkLst\Madzipper\Repositories\\'.ucwords($type).'Repository';
         }
 
-        if (! is_subclass_of($objectOrName, 'Madnest\Madzipper\Repositories\RepositoryInterface')) {
+        if (! is_subclass_of($objectOrName, 'WrkLst\Madzipper\Repositories\RepositoryInterface')) {
             throw new \InvalidArgumentException("Class for '{$objectOrName}' must implement RepositoryInterface interface");
         }
 

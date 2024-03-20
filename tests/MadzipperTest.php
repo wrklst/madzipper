@@ -1,18 +1,18 @@
 <?php
 
-namespace Madnest\Madzipper\Tests;
+namespace WrkLst\Madzipper\Tests;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
 use InvalidArgumentException;
-use Madnest\Madzipper\Madzipper;
+use WrkLst\Madzipper\Madzipper;
 use Mockery;
 use RuntimeException;
 
 class MadzipperTest extends TestCase
 {
     /**
-     * @var \Madnest\Madzipper\Madzipper
+     * @var \WrkLst\Madzipper\Madzipper
      */
     public $archive;
 

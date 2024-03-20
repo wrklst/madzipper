@@ -1,6 +1,6 @@
 <?php
 
-namespace Madnest\Madzipper;
+namespace WrkLst\Madzipper;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -27,14 +27,14 @@ class MadzipperServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('madzipper', function ($app) {
-            $return = $app->make('Madnest\Madzipper\Madzipper');
+            $return = $app->make('WrkLst\Madzipper\Madzipper');
 
             return $return;
         });
 
         $this->app->booting(function () {
             $loader = AliasLoader::getInstance();
-            $loader->alias('Madzipper', 'Madnest\Madzipper\Facades\Madzipper');
+            $loader->alias('Madzipper', 'WrkLst\Madzipper\Facades\Madzipper');
         });
     }
 

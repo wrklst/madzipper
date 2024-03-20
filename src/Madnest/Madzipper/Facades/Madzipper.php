@@ -1,6 +1,6 @@
 <?php
 
-namespace Madnest\Madzipper\Facades;
+namespace WrkLst\Madzipper\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

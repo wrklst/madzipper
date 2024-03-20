@@ -1,6 +1,6 @@
 <?php
 
-namespace Madnest\Madzipper\Repositories;
+namespace WrkLst\Madzipper\Repositories;
 
 use Exception;
 use ZipArchive;

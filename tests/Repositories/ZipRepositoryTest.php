@@ -1,10 +1,10 @@
 <?php
 
-namespace Madnest\Madzipper\Tests\Repositories;
+namespace WrkLst\Madzipper\Tests\Repositories;
 
 use Exception;
-use Madnest\Madzipper\Repositories\ZipRepository;
-use Madnest\Madzipper\Tests\TestCase;
+use WrkLst\Madzipper\Repositories\ZipRepository;
+use WrkLst\Madzipper\Tests\TestCase;
 use Mockery;
 use ZipArchive;
 

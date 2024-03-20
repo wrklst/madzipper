@@ -1,8 +1,8 @@
 <?php
 
-namespace Madnest\Madzipper\Tests;
+namespace WrkLst\Madzipper\Tests;
 
-use Madnest\Madzipper\Repositories\RepositoryInterface;
+use WrkLst\Madzipper\Repositories\RepositoryInterface;
 
 class ArrayArchive implements RepositoryInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Madnest\Madzipper\Tests;
+namespace WrkLst\Madzipper\Tests;
 
-use Madnest\Madzipper\MadzipperServiceProvider;
+use WrkLst\Madzipper\MadzipperServiceProvider;
 // use Mockery;
 use Orchestra\Testbench\TestCase as Orchestra;
 
