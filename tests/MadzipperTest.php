@@ -38,7 +38,7 @@ class MadzipperTest extends TestCase
     /** @test */
     public function an_archive_can_be_made()
     {
-        $this->assertSame('Madnest\\Madzipper\\Tests\\ArrayArchive', $this->archive->getArchiveType());
+        $this->assertSame('WrkLst\\Madzipper\\Tests\\ArrayArchive', $this->archive->getArchiveType());
         $this->assertSame('foo', $this->archive->getFilePath());
     }
 
